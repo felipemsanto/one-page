@@ -2,18 +2,18 @@
 <head>
     <meta name="viweport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>One Page</title>
-    <!-- CSS Bootsreap!-->
+    <!-- CSS Bootsreap !-->
     <link rel="stylesheet" tipe="text/css" href="css/bootstrap.min.css">
-    <!-- CSS Bootsreap!-->
+    <!-- CSS Bootsreap !-->
     <link rel="stylesheet" tipe="text/css" href="css/style.css">
 </head>
 <body>
-    <!-- Top-->
+    <!-- Top !-->
     <div class="container-fluid bg-top">
         <header class="container">
             <nav class="navbar navbar-expand-lg navbar-dark">
                 <a href="#" class="navbar-brand">
-                    <img src="imagens/logo.png" height="70px" class="d-içine-block align-top">
+                    <img src="img/logo.png" height="70px" class="d-içine-block align-top">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" 
                 aria-expanded="false" aria-label="Menu Colapso">
@@ -40,7 +40,41 @@
         </header>
     </div>
 
-    <!-- JsBootsreap!-->
+    <!-- Slide Show !-->
+    <div class="container-fluid my-2">
+        <div id="slideshow" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+                <li data-target="#slideshow" data-slide-to="1"></li>
+            </ol>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="#">
+                        <img src="img/banner1.jpg" class="d-block w-100" alt="First Slide">
+                    </a>                    
+                </div>  
+                <div class="carousel-item">
+                    <a href="#">
+                        <img src="img/banner2.jpg" class="d-block w-100" alt="Second Slide">
+                    </a>                    
+                </div>  
+            </div>
+
+            <a href="#slideshow" class="carousel-control-prev" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="st-only">Anterior</span>
+            </a>
+
+            <a href="#slideshow" class="carousel-control-next" role="button" data-slide="next">
+                <span class="carousel-control-nexy-icon" aria-hidden="true"></span>
+                <span class="st-only">Próximo</span>
+            </a>
+
+        </div>
+    </div>
+
+    <!-- JsBootsreap !-->
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>
